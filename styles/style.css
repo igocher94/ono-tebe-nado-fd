@@ -16,14 +16,14 @@
 .header__links-list {
   list-style: none;
   display: flex;
-  gap: 7px;
+  gap: 13px;
   align-items: center;
 }
 
 /* cдался и попросил помочь */
 .header__links-list li:not(:last-child)::after {
   content: "◦";
-  margin-left: 10px;
+  margin-left: 13px;
 }
 
 .header__link {
@@ -36,14 +36,9 @@
   text-decoration: none;
 }
 
-.header__logo {
+.header__logo-image {
   width: 148px;
   height: 105px;
-}
-
-.header__logo-image {
-  width: 129.11196899414062px;
-  height:104.6517562866211px;
 }
 
 /* ADDRESS (универсальный блок) */
@@ -91,7 +86,7 @@
 .overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .cover__title {
@@ -108,7 +103,7 @@
 
 /* Общие стили для всех строк заголовка */
 .cover__title-line {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .cover__title-line:last-child {
