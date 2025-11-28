@@ -117,10 +117,12 @@
 
 .cover__title-line:nth-child(2) {
   align-self: center;
+  margin-left: 60px;
 }
 
 .cover__title-line:nth-child(3) {
   align-self: flex-end;
+  margin-right: -50px;
 }
 
 
@@ -308,20 +310,19 @@
 /* FOOTER */
 
 .footer {
-  padding-bottom: 82px;
   width: 1100px;
-  margin-top: 180px;
-  margin-left: 50px;
-  margin-right: 50px;
+  height: 180px;
+  margin: 180px auto 0;
+  padding: 0 50px 82px 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  align-items: start;
 }
 
 /* Footer address - специфичные стили (если нужны) */
 
 
 .footer__menu {
-  margin-right: 102px;
   text-align: center;
 }
 
@@ -353,7 +354,6 @@
 }
 
 .footer__social {
-  margin-right: 50px;
   list-style: none;
   display: flex;
   justify-content: flex-end;
